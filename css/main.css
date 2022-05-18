@@ -1,0 +1,35 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: fit-content;
+    width: fit-content;
+}
+
+div, h1, footer{
+    padding: 30px;
+
+}
+
+dt{
+    font-weight: bolder;
+}
+
+.link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(255, 115, 0);
+}
+
